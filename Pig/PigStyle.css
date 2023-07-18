@@ -1,0 +1,150 @@
+        .container{
+            align-content: center;
+            background-color:aqua;
+            height:500px;
+            width:800px;
+            flex-wrap: wrap;
+            position: relative;
+
+
+        }
+        
+        .face{
+            position: absolute;
+            background-color: rgb(255, 203, 211);
+            height: 200px;
+            width: 200px;
+            border-radius: 80%;
+            justify-content: center;
+            align-items: center;
+            margin-top: 150px;
+            margin-left: 300px;
+            
+        }
+        .ear1{
+            position: absolute;
+            background-color: rgb(255, 203, 211);
+            height: 85px;
+            width: 85px;
+            border-radius: 100%;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+            margin-left: 300px;
+        }
+        .ear2{
+            position: absolute;
+            background-color: rgb(255, 203, 211);
+            height: 85px;
+            width: 85px;
+            border-radius: 100%;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+            margin-left: 425px;
+        }
+        .earin1{
+            position: absolute;
+            background-color: rgb(200, 64, 87);
+            height: 70px;
+            width: 70px;
+            border-radius: 100%;
+            justify-content: center;
+            align-items: center;
+            margin-top: 115px;
+            margin-left: 430px;
+
+        }
+        .earin2{
+            position: absolute;
+            background-color: rgb(200, 64, 87);
+            height: 70px;
+            width: 70px;
+            border-radius: 100%;
+            justify-content: center;
+            align-items: center;
+            margin-top: 115px;
+            margin-left: 310px;
+
+        }
+        .eye1{
+            position: absolute;
+            background-color: rgb(247, 248, 228);
+            height: 60px;
+            width: 60px;
+            border-radius: 100%;
+            justify-content: center;
+            align-items: center;
+            margin-top: 200px;
+            margin-left: 405px;
+
+        }
+        .eye2{
+            position: absolute;
+            background-color: rgb(247,248,228);
+            height: 60px;
+            width: 60px;
+            border-radius: 100%;
+            justify-content: center;
+            align-items: center;
+            margin-top: 200px;
+            margin-left: 340px;
+        }
+        .eyein1{
+            position: absolute;
+            background-color: rgb(0, 0, 0);
+            height: 40px;
+            width: 40px;
+            border-radius: 100%;
+            justify-content: center;
+            align-items: center;
+            margin-top: 220px;
+            margin-left: 355px;
+        }
+        .eyein2{
+            position: absolute;
+            background-color: rgb(0, 0, 0);
+            height: 40px;
+            width: 40px;
+            border-radius: 100%;
+            justify-content: center;
+            align-items: center;
+            margin-top: 220px;
+            margin-left: 410px;
+        }
+        .mouth{
+            position: absolute;
+            background-color: rgb(249, 36, 203);
+            height: 80px;
+            width: 80px;
+            border-radius: 100%;
+            justify-content: center;
+            align-items: center;
+            margin-top: 270px;
+            margin-left: 360px;
+        }
+        .m1{
+            position: absolute;
+            background-color:rgb(200, 64, 87);
+            height: 20px;
+            width: 20px;
+            border-radius: 100%;
+            justify-content: center;
+            align-items: center;
+            margin-top: 310px;
+            margin-left: 380px;
+        }
+        .m2{
+            position: absolute;
+            background-color:rgb(200, 64, 87);
+            height: 20px;
+            width: 20px;
+            border-radius: 100%;
+            justify-content: center;
+            align-items: center;
+            margin-top: 310px;
+            margin-left: 405px;
+        }
+        .ear1,.ear2,.earin1,.earin2,.eye1,.eye2,.eyein1,.eyein2,.face,.mouth,.m1,.m2{
+            border: 1px solid black;
+        }        
