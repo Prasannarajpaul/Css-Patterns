@@ -1,0 +1,166 @@
+h1{
+    text-align: center;
+}
+.container{
+    margin: auto;
+    position: relative;
+    align-content: center;
+    /* border:5px solid black; */
+    height: 500px;
+    width:500px;
+    
+}
+.head{
+    border:2px solid black;
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    margin-left: 150px;
+    border-top-left-radius:50% ;
+    border-top-right-radius:50% ;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    background-color: rgb(232, 161, 18);
+}
+.eye1{
+   
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background: linear-gradient(to bottom,red,rgb(63, 0, 92),rgb(62, 0, 117),yellow);
+    margin-left: 30px;
+    margin-top: 40px;
+    border-radius: 100%;
+    background-color: rgb(232, 161, 18);
+}
+.eye2{
+    
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background: linear-gradient(to bottom,red,rgb(63, 0, 92),rgb(62, 0, 117),yellow);
+    margin-left: 140px;
+    margin-top: 40px;
+    border-radius: 100%;
+    background-color: rgb(232, 161, 18);
+}
+.body{
+    border:2px solid black;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background: rgb(229, 160, 0);
+    margin-left: 150px;
+    margin-top: 115px;
+    border-radius: 10%;
+    background-color: rgb(232, 161, 18);
+}
+.bodyd{
+    border:2px solid black;
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    background: rgb(229, 160, 0);
+    margin-left: 150px;
+    margin-top: 270px;
+    border-radius: 10%;
+    background-color: rgb(18, 12, 0);
+}
+.hand1{
+    border:2px solid white;
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    background: rgb(0, 0, 0);
+    margin-left: 80px;
+    margin-top: 150px;
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+    /* animation: tiltLeft 1s infinite */
+}
+.hand2{
+    border:2px solid white;
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    background: rgb(0, 0, 0);
+    margin-left: 370px;
+    margin-top: 150px;
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+    /* animation: tiltRight 1s infinite */
+}
+.leg1{
+    border:2px solid white;
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    background: rgb(0, 0, 0);
+    margin-left: 180px;
+    margin-top: 290px;
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+    /* animation: tiltLeft 1s infinite */
+}
+.leg2{
+    border:2px solid white;
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    background: rgb(0, 0, 0);
+    margin-left: 270px;
+    margin-top: 290px;
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+    /* animation: tiltRight 1s infinite */
+}
+.container:hover .hand1{
+animation: tiltLeft 1s infinite;
+}
+.container:hover .leg1{
+animation: tiltLeft 1s infinite;
+}
+.container:hover .hand2{
+animation: tiltRight 1s infinite;
+}
+.container:hover .leg2{
+animation: tiltRight 1s infinite;
+}
+.head:hover{
+    animation: enlarge 2s infinite;
+}
+@keyframes tiltLeft{
+    0%{
+            transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes tiltRight{
+    0%{
+            transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-30deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes enlarge {
+    0%{
+        
+        width:200px;
+    }
+    50%{
+        translate: -10px;
+        width: 225px;
+    }
+    100%{
+        width:200px;
+    }
+}
